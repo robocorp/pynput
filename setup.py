@@ -6,13 +6,13 @@ import setuptools
 
 
 #: The name of the package on PyPi
-PYPI_PACKAGE_NAME = 'pynput'
+PYPI_PACKAGE_NAME = 'pynput-robocorp-fork'
 
 #: The name of the main Python package
 MAIN_PACKAGE_NAME = 'pynput'
 
 #: The package URL
-PACKAGE_URL = 'https://github.com/moses-palmer/pynput'
+PACKAGE_URL = 'https://github.com/robocorp/pynput'
 
 #: The author email
 AUTHOR_EMAIL = 'moses.palmer@gmail.com'
@@ -31,7 +31,6 @@ EXTRA_PACKAGES = {
     ':sys_platform == "darwin"': [
         'pyobjc-framework-Quartz >=7.0'],
     ':"linux" in sys_platform': [
-        'evdev >= 1.3',
         'python-xlib >= 0.17'],
     ':python_version == "2.7"': [
         'enum34']}

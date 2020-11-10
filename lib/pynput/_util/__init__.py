@@ -40,8 +40,6 @@ from six.moves import queue
 RESOLUTIONS = {
     'darwin': 'Please make sure that you have Python bindings for the '
         'system frameworks installed',
-    'uinput': 'Please make sure that you are running as root, and that '
-        'the utility dumpkeys is installed',
     'xorg': 'Please make sure that you have an X server running, and that '
         'the DISPLAY environment variable is set correctly'}
 
