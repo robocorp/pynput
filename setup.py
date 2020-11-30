@@ -29,11 +29,17 @@ SETUP_PACKAGES = [
 #: Packages requires for different environments
 EXTRA_PACKAGES = {
     ':sys_platform == "darwin"': [
-        'pyobjc-framework-Quartz >=7.0'],
+        'pyobjc-framework-Quartz >= 6.0, < 7.0',
+        'pyobjc-framework-Cocoa >= 6.0, < 7.0',
+        'pyobjc-core >= 6.0, < 7.0',
+    ],
     ':"linux" in sys_platform': [
-        'python-xlib >= 0.17'],
+        'python-xlib >= 0.17',
+    ],
     ':python_version == "2.7"': [
-        'enum34']}
+        'enum34',
+    ]
+}
 
 
 # Read globals from ._info without loading it
