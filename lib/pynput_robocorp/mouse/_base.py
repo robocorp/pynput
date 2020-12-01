@@ -26,8 +26,8 @@ is located in a platform dependent module.
 
 import enum
 
-from pynput._util import AbstractListener
-from pynput import _logger
+from pynput_robocorp._util import AbstractListener
+from pynput_robocorp import _logger
 
 
 class Button(enum.Enum):

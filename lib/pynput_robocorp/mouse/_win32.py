@@ -31,8 +31,8 @@ from ctypes import (
     windll,
     wintypes)
 
-from pynput._util import NotifierMixin
-from pynput._util.win32 import (
+from pynput_robocorp._util import NotifierMixin
+from pynput_robocorp._util.win32 import (
     INPUT,
     INPUT_union,
     ListenerMixin,

@@ -9,7 +9,7 @@ import setuptools
 PYPI_PACKAGE_NAME = 'pynput-robocorp-fork'
 
 #: The name of the main Python package
-MAIN_PACKAGE_NAME = 'pynput'
+MAIN_PACKAGE_NAME = 'pynput_robocorp'
 
 #: The package URL
 PACKAGE_URL = 'https://github.com/robocorp/pynput'
